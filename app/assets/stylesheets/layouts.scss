@@ -1,0 +1,33 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+  margin-bottom: 1.5em;
+  background-color: #eaeaea;
+  padding: 2em 0;
+  text-align: center;
+  h1 {
+    font-weight: bold;
+  }
+}
+
+#trunk {
+  @extend .row;
+  main {
+    @extend .col-lg-9;
+    min-height: 30em;
+  }
+  aside {
+    @extend .col-lg-3;
+  }
+}
+
+footer {
+  @extend .row;
+  margin-top: 1em;
+  border-top: 1px solid #CCC;
+  padding: 1em 0;
+  text-align: center;
+  color: #CCC;
+}
